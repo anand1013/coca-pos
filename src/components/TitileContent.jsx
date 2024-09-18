@@ -2,17 +2,37 @@ import React from "react";
 import Frame from "../assets/Frame.png"; // Adjust the path as needed
 import Group2 from "../assets/Group2.png";
 import Group3 from "../assets/Group3.png";
+import Icon from "../assets/icon.png";
+
 function TitileContent() {
   return (
     <section className="bg-white">
-      <div className="grid  px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
+      <div className="grid  px-4 pt-5 pb-8 lg:gap-8 xl:gap-0 grid-cols-12">
         <div
-          className="hidden lg:mt-0 lg:col-span-5 lg:flex mr-5 rounded-3xl"
+          className="hidden lg:mt-0 lg:col-span-7 lg:flex mr-5 rounded-3xl"
           style={{
             background: "linear-gradient(358deg, #000000, #000000f2)",
             position: "relative",
           }}
         >
+          <div className="ml-10 mt-20  flex flex-col">
+            <h5 className="mt-18 text-slate-500 text-lg font-normal">
+              All the features you need in one App for any kind of <br /> your
+              business 🚀
+            </h5>
+            <h1 className="mt-6 text-white max-w-2xl mb-4 text-5xl font-semibold leading-none tracking-tight">
+              Manage your restaurant <br />
+              business so advanced
+            </h1>
+            <a
+              href="#"
+              className="w-1/2 mt-6 text-white text-lg bg-orange-500 font-medium rounded-full text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-4 flex items-center"
+              aria-current="page"
+            >
+              Get Started for Free
+            </a>
+          </div>
+
           <img
             src={Frame} // Replace with the actual image URL
             alt="Bottom Image"
@@ -30,7 +50,7 @@ function TitileContent() {
           />
         </div>
 
-        <div className="mr-auto place-self-center lg:col-span-7">
+        <div className="mr-auto place-self-center lg:col-span-5">
           <div>
             <svg
               width="32"
@@ -91,7 +111,7 @@ function TitileContent() {
                 </figure>
               </div>
             </section>
-            
+
             <p className="font-light text-gray-500">
               Automate ordering, payment and stock management.
             </p>
