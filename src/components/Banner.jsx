@@ -5,7 +5,7 @@ function Banner() {
     <section className="bg-white">
       <div className="max-w-screen-xl px-4 pb-8 mx-auto lg:pb-16 text-center">
         <span
-          className="text-base font-medium leading-tight text-gray-900 mb-40"
+          className="text-base text-lg font-semibold leading-tight text-gray-900 mb-40"
         >
           Trusted by over 50 thousand restaurants in 10+ countries
         </span>
