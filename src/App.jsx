@@ -17,8 +17,9 @@ function App() {
       <TitileContent></TitileContent>
       <Banner></Banner>
       <Sponcers></Sponcers>
-      <Blog></Blog>
       <Pricing></Pricing>
+      <Blog></Blog>
+
       <Faq></Faq>
     </>
   );
