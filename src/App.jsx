@@ -7,6 +7,8 @@ import TitileContent from "./components/TitileContent";
 import Sponcers from "./components/Sponcers";
 import Banner from "./components/Banner";
 import Blog from "./components/Blog";
+import Faq from "./components/Faq";
+import Pricing from "./components/Pricing";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <Banner></Banner>
       <Sponcers></Sponcers>
       <Blog></Blog>
+      <Pricing></Pricing>
+      <Faq></Faq>
     </>
   );
 }
