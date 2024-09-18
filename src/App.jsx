@@ -12,6 +12,7 @@ function App() {
   return (
     <>
       <AppBar></AppBar>
+      <TitileContent></TitileContent>
       <Banner></Banner>
       <Sponcers></Sponcers>
       <Blog></Blog>
