@@ -47,11 +47,7 @@ function Footer() {
             </svg>
           </span>
         </button>
-        <img
-            src={Scene2} // Replace with the actual image URL
-            alt="Bottom Image"
-            className="absolute bottom-6"
-          />
+        
         <div>
        
         </div>
