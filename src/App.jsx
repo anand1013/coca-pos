@@ -9,6 +9,7 @@ import Banner from "./components/Banner";
 import Blog from "./components/Blog";
 import Faq from "./components/Faq";
 import Pricing from "./components/Pricing";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
       <Blog></Blog>
 
       <Faq></Faq>
+
+      <Footer></Footer>
     </>
   );
 }

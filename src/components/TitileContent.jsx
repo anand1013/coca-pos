@@ -8,12 +8,11 @@ import star from "../assets/star.png";
 function TitileContent() {
   return (
     <section className="bg-white">
-      <div className="grid  px-4 pt-5 pb-8 lg:gap-8 xl:gap-0 grid-cols-12">
+      <div className="grid max-w-screen-xl pb-8 mx-auto lg:gap-8 xl:gap-4 grid-cols-12">
         <div
-          className="hidden lg:mt-0 lg:col-span-7 lg:flex mr-5 rounded-3xl"
+          className="mr-auto place-self-center lg:col-span-7  rounded-3xl"
           style={{
             background: "linear-gradient(358deg, #000000, #000000f2)",
-            position: "relative",
           }}
         >
           <div className="h-72 ml-10 mt-20  flex flex-col">
@@ -50,22 +49,7 @@ function TitileContent() {
               </span>
             </button>
           </div>
-
-          <img
-            src={Frame} // Replace with the actual image URL
-            alt="Bottom Image"
-            className="absolute bottom-6"
-          />
-          <img
-            src={Group3} // Replace with the actual image URL
-            alt="Bottom Image"
-            className="absolute bottom-12 h-56 left-0"
-          />
-          <img
-            src={Group2} // Replace with the actual image URL
-            alt="Bottom Image"
-            className="absolute bottom-6 h-96 right-0"
-          />
+          <img className="mb-6" src={Frame} alt="hero image" />
         </div>
 
         <div className="mr-auto place-self-center lg:col-span-5">
@@ -131,6 +115,7 @@ function TitileContent() {
                 </figure>
               </div>
             </section>
+
             <div className="flex flex-row space-x-4 ">
               <div className="basis-1/2  rounded-3xl">
                 <section className="bg-gray-50 mb-8">
@@ -283,6 +268,67 @@ function TitileContent() {
         </div>
       </div>
     </section>
+
+    // <section className="bg-white">
+    //   <div className="grid  px-4 pt-5 pb-8 lg:gap-8 xl:gap-0 grid-cols-12">
+    //     <div
+    //       className="hidden lg:mt-0 lg:col-span-7 lg:flex mr-5 rounded-3xl"
+    //       style={{
+    //         background: "linear-gradient(358deg, #000000, #000000f2)",
+    //         position: "relative",
+    //       }}
+    //     >
+    //       <div className="h-72 ml-10 mt-20  flex flex-col">
+    //         <h5 className="mt-18 text-slate-500 text-lg font-normal">
+    //           All the features you need in one App for any kind of <br /> your
+    //           business 🚀
+    //         </h5>
+    //         <h1 className="mt-6 text-white max-w-2xl mb-4 text-5xl font-semibold leading-none tracking-tight">
+    //           Manage your restaurant <br />
+    //           business so advanced
+    //         </h1>
+    //         <button
+    //           type="button"
+    //           className="w-1/2 mt-6 text-white  bg-orange-500 font-medium rounded-full text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-4 flex items-center justify-center"
+    //           aria-current="page"
+    //         >
+    //           Get Started for Free
+    //           <span className="ml-4 w-6 h-6 bg-white rounded-full flex items-center justify-center">
+    //             {/* Use an SVG or Font Awesome icon here */}
+    //             <svg
+    //               xmlns="http://www.w3.org/2000/svg"
+    //               fill="none"
+    //               viewBox="0 0 24 24"
+    //               stroke="currentColor"
+    //               className="w-4 h-4 text-orange-500"
+    //             >
+    //               <path
+    //                 strokeLinecap="round"
+    //                 strokeLinejoin="round"
+    //                 strokeWidth="2"
+    //                 d="M5 12h14M12 5l7 7-7 7"
+    //               />
+    //             </svg>
+    //           </span>
+    //         </button>
+    //       </div>
+
+    //       {/* <img
+    //         src={Frame} // Replace with the actual image URL
+    //         alt="Bottom Image"
+    //         className="absolute bottom-6"
+    //       />
+    //       <img
+    //         src={Group3} // Replace with the actual image URL
+    //         alt="Bottom Image"
+    //         className="absolute bottom-12 h-56 left-0"
+    //       />
+    //       <img
+    //         src={Group2} // Replace with the actual image URL
+    //         alt="Bottom Image"
+    //         className="absolute bottom-6 h-96 right-0"
+    //       /> */}
+    //     </div>
   );
 }
 
